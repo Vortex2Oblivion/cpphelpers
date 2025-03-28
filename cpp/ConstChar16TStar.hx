@@ -2,7 +2,7 @@ package cpp;
 
 /**
  * An abstract that can be used like `String` for when externs specifically want this type.
- * Compiles into similar to `ConstCharStar` compiling into `const char *` this compiles into `const wchar_t *`.
+ * Compiles into similar to `ConstCharStar` compiling into `const char *` this compiles into `const char16_t *`.
  * If you can think of a better name for this class please let me know.
  */
 extern abstract ConstChar16TStar(RawConstPointer<Char16T>) to (RawConstPointer<Char16T>) {
