@@ -11,13 +11,10 @@
       "helper",
       "helpers"      
     ],
-    "description": "Collection of helper classes representing raw C types to use when making haxe externs for the C++ target.",
+    "description": "Collection of helper classes representing raw C and C++ types to use when making haxe externs for the C++ target.",
     "version": "1.0.0",
     "releasenote": "",
     "contributors": [
       "Vortex"
-    ],
-    "dependencies": {
-      "hxcpp": ""
-    }
+    ]
   }
