@@ -5,7 +5,7 @@ package cpp;
  * 
  * 
  * FUCK YOU HXCPP
- * WHY DO YOU TRACE TRUE WHEN TRACING A CHAR??
+ * WHY DO YOU TRACE TRUE WHEN TRACING A CHAR[]??
  * WHAT THE FUCK???
  */
 extern abstract ForcedString(String) to (String) {
