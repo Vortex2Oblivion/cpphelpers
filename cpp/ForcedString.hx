@@ -2,11 +2,6 @@ package cpp;
 
 /**
  * Will force a cast to `::String` when compiled
- * 
- * 
- * FUCK YOU HXCPP
- * WHY DO YOU TRACE TRUE WHEN TRACING A CHAR[]??
- * WHAT THE FUCK???
  */
 extern abstract ForcedString(String) to (String) {
 	inline function new(s:String)
