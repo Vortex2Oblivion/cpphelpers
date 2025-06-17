@@ -12,8 +12,8 @@
       "helpers"      
     ],
     "description": "Collection of helper classes representing raw C and C++ types to use when making haxe externs for the C++ target.",
-    "version": "1.0.1",
-    "releasenote": "Add ForcedString",
+    "version": "1.1.0",
+    "releasenote": "Add StdVector",
     "contributors": [
       "Vortex"
     ]
