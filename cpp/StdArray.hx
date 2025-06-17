@@ -1,16 +1,13 @@
 package cpp;
 
 /**
- * Represents a `std::vector`
- * based on a class from hxvlc
- * @see https://github.com/MAJigsaw77/hxvlc/blob/main/source/cpp/StdVector.hx
+ * Represents a `std::array`
  */
-@:include('vector')
-@:native('std::vector')
+@:include('array')
+@:native('std::array')
 @:nativeArrayAccess
 @:structAccess
-extern class StdVector<T> implements ArrayAccess<Reference<T>>
-{
+extern class StdArray<T, @:const Size:Int> implements ArrayAccess<Reference<T>>{
 	@:overload(function(size:Int):Void {})
 	function new():Void;
 
