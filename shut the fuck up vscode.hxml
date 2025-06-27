@@ -1,2 +1,3 @@
 --cpp test/bin
 --library cpphelpers
+--class-path src
