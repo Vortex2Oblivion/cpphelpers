@@ -5,6 +5,7 @@ import haxe.macro.Type;
 import haxe.macro.Expr;
 
 /**
+ * Generates extern classes for integer values.
  * Shoutout to @princesszetaofhyrule on discord for helping me with this.
  */
 class IntegerClassMacro {

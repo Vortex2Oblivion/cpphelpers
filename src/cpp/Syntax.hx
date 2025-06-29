@@ -3,10 +3,15 @@ package cpp;
 import haxe.exceptions.NotImplementedException;
 
 extern class Syntax {
-    public extern overload inline static function code(code:String) {
+    /**
+     * Alternative to `untyped __cpp__` 
+     * NOTE: does not support injections through `{0}`, `{1}`, etc.
+     * @param code 
+     */
+    public extern /*overload*/ inline static function code(code:String) {
         untyped __cpp__(code);
     }
-    public extern overload inline static function code(code:String, args:haxe.extern.Rest<Dynamic>) {
+    /*public extern overload inline static function code(code:String, args:haxe.extern.Rest<Dynamic>) {
         throw new NotImplementedException();
-    }
+    }*/
 }
