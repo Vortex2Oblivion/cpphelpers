@@ -8,7 +8,6 @@ package cpp;
 @:native('std::array')
 @:nativeArrayAccess
 extern class StdArray<T, N> implements ArrayAccess<Reference<T>>{
-	@:overload(function(size:Int):Void {})
 	function new():Void;
 
 	extern inline function at(pos):T {

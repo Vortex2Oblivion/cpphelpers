@@ -1,3 +1,5 @@
+import cpp.Int128;
+import cpp.CArray;
 import cpp.RawPointer;
 import cpp.Native;
 import cpp.TInt;
