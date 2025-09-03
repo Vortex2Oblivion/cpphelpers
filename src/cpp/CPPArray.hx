@@ -11,7 +11,7 @@ extern class CPPArray {
         return untyped __cpp__("{ {0} }", t1);
     }
     static overload extern inline function create<T>(t1:T, t2:T):Dynamic {
-        return untyped __cpp__("{ {0}, {1} }", t1);
+        return untyped __cpp__("{ {0}, {1} }", t1, t2);
     }
     static overload extern inline function create<T>(t1:T, t2:T, t3:T):Dynamic {
         return untyped __cpp__("{ {0}, {1}, {2} }", t1, t2, t3);
