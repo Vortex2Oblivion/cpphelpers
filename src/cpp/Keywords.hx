@@ -1,7 +1,13 @@
 package cpp;
 
 extern class Keywords {
-    inline static function delete<T>(obj:T) {
-        untyped __cpp__("delete {0}", obj);
-    }
+	overload inline static function delete<T>(obj:RawConstPointer<T>) {
+		untyped __cpp__("delete {0}", obj);
+	}
+	overload inline static function delete<T>(obj:ConstPointer<T>) {
+		untyped __cpp__("delete {0}", obj);
+	}
+    	overload inline static function delete<T>(obj:Star<T>) {
+		untyped __cpp__("delete {0}", obj);
+	}
 }
