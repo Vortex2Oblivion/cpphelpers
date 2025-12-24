@@ -1,10 +1,11 @@
+import cpp.RawFILE;
+import cpp.SharedPointer;
 import cpp.Keywords;
-import cpp.RawPointer;
+import cpp.Types.NULL;
 
 class Main {
 	static function main() {
-		var asdjkhgsdf:RawPointer<Int> = cast 10;
+		var asdjkhgsdf:SharedPointer<RawFILE> = SharedPointer.makeShared(RawFILE);
 		trace(asdjkhgsdf);
-		Keywords.delete(asdjkhgsdf);
 	}
 }
